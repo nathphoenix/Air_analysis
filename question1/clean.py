@@ -53,7 +53,7 @@ Generating the clean csv data
 '''
 
 if nan_status == 'No more Nan values':
-  clean_df[:10].to_csv('clean.csv', index=False)
+  clean_df.to_csv('clean.csv', index=False)
   data_quantity = len(clean_df)
   print('csv file generated successfully')
   print('Total quantity of clean records is {}'.format(data_quantity))

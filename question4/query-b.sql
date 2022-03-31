@@ -1,0 +1,5 @@
+SELECT `Location`, AVG(`PM2.5`), AVG(`VPM2.5`) FROM
+(SELECT * FROM `pollution`
+WHERE EXTRACT(YEAR FROM `Date Time`) = 2019 AND HOUR(`Date Time`) BETWEEN 7 AND 8) sd
+WHERE `PM2.5` < 2.5 AND `VPM2.5` < 2.5
+GROUP BY `Location`
