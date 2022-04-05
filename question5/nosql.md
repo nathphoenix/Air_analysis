@@ -1,4 +1,4 @@
-This entire process begins by install mongodb compass on my system and i then install the neccessary modules like pymongo in order to have access to the mongoclient and dnspythpn for proper connection to a remote mongodb database.
+This entire process begins by installing mongodb compass on my system and i then install the neccessary modules like pymongo in order to have access to the mongoclient and dnspythpn for proper connection to a remote mongodb database.
 
 I then import the pymongo in order to set up my mongodb and create a collection(which is better known as table) for storing each records from the clean csv as a document, mind you one row on a table in a RDBMS is equivalent to a document in a NRDBMS.
 
