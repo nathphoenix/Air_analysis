@@ -8,7 +8,7 @@ meta = MetaData()
 '''
 READING CLEAN CSV FILE
 '''
-csv_name = ''
+csv_name = '../question1/clean.csv'
 clean_df = pd.read_csv(csv_name)
 
 '''

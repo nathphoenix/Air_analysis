@@ -2,7 +2,7 @@ import mysql.connector
 from sqlalchemy import create_engine
 import pandas as pd
 
-csv_data = ''
+csv_data = '../question1/clean.csv'
 clean_df = pd.read_csv(csv_data)
 
 try:
